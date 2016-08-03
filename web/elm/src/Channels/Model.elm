@@ -11,27 +11,6 @@ type SOCKET_STATES
     | Closing
     | Closed
 
--- type CHANNEL_STATES
---     = Closed
---     | Errored
---     | Joined
---     | Joining
---
--- state2String : CHANNEL_STATES -> String
--- state2String =
---     String.toLower << toString
---
--- type CHANNEL_EVENTS
---     = Close
---     | Error
---     | Join
---     | Reply
---     | Leave
---
--- toString : CHANNEL_EVENTS -> String
--- toString s =
---     "phx_" ++ (String.toLower <| toString s)
-
 
 type alias Model =
     { socketUrl : String

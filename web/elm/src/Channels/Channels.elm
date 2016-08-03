@@ -26,7 +26,7 @@ update msg model =
             , WS.send model.socketUrl (encoder joinMsg)
             )
         Send m ->
-            let myMsg = SendMsg "rooms:lobby" "new_msg" m "1"
+            let myMsg = SendMsg "rooms:lobby" "new:msg" m "1"
             in
             ( model
             , sendChannel model myMsg

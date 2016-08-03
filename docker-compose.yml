@@ -17,8 +17,8 @@ db:
   volumes:
     - data:/var/lib/postgresql/data
   environment:
-    POSTGRES_PASSWORD=raposa
-    POSTGRES_USER=brdcaster
+    - POSTGRES_PASSWORD=raposa
+    - POSTGRES_USER=brdcaster
 
 redis:
   image: redis:3.0.7

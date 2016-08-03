@@ -35,8 +35,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :brdcaster, Brdcaster.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "brdcaster",
+  password: "raposa",
   database: "brdcaster_dev",
-  hostname: "localhost",
+  hostname: "192.168.99.100",
   pool_size: 10
