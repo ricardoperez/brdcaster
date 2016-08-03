@@ -13,7 +13,7 @@ import Channels.Channels as C
 
 import Debug
 
-socketUrl = "ws://localhost:4000/socket/websocket"
+socketUrl = "ws://192.168.99.100:4000/socket/websocket"
 
 -- MODEL
 

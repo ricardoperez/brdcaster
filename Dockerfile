@@ -1,6 +1,7 @@
 FROM trenpixster/elixir:1.3.0
 
 RUN curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash - && apt-get install -y nodejs
+RUN npm install -g elm
 
 # Install other stable dependencies that don't change often
 # Compile app
@@ -31,4 +32,3 @@ EXPOSE 4000
 # The command to run when this image starts up
 CMD MIX_ENV=prod mix ecto.migrate && \
 MIX_ENV=prod mix phoenix.server
-
