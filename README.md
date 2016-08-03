@@ -3,8 +3,8 @@
 Playing with Phoenix and Elm websocket
 
 ### Reference
-https://github.com/chrismccord/phoenix_chat_example
-https://github.com/simonh1000/elm-phoenix-channels
+ * https://github.com/chrismccord/phoenix_chat_example
+ * https://github.com/simonh1000/elm-phoenix-channels
 
 To start your Phoenix app:
 
